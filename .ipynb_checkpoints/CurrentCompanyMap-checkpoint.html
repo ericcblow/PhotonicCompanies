@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7266775bbf65f9708707c57db36de31d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7266775bbf65f9708707c57db36de31d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7266775bbf65f9708707c57db36de31d = L.map(
+                "map_7266775bbf65f9708707c57db36de31d",
+                {
+                    center: [37.7749, -122.4194],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e9dc5f143c54c73a3431806c747d3c88 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e9dc5f143c54c73a3431806c747d3c88.addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+            var marker_9e013a17a66d0ba12aed3e0ad1a93c4c = L.marker(
+                [37.40714135722341, -122.07267253952543],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_04b019f00bd8e0c5cc60a7a98f2f8d98 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c9dabeab56f397f9307344ec2537e1b = $(`<div id="html_2c9dabeab56f397f9307344ec2537e1b" style="width: 100.0%; height: 100.0%;">LightMatter  Size: 200  Focus: Optical MVM / PNN  Key Members and Affliations: Nick Harris, Dirk Englund, David Miller, MIT, Stanford</div>`)[0];
+                popup_04b019f00bd8e0c5cc60a7a98f2f8d98.setContent(html_2c9dabeab56f397f9307344ec2537e1b);
+            
+        
+
+        marker_9e013a17a66d0ba12aed3e0ad1a93c4c.bindPopup(popup_04b019f00bd8e0c5cc60a7a98f2f8d98)
+        ;
+
+        
+    
+    
+            var marker_4f3790401237407f9aedbb2e7abf1bde = L.marker(
+                [43.63394536665972, -79.3723509678403],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_f3dec3ad0e070012ff5c2ce8e502d888 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c561323b4021c37073138c435f796be3 = $(`<div id="html_c561323b4021c37073138c435f796be3" style="width: 100.0%; height: 100.0%;">LightMatter  Size: 200  Focus: Optical MVM / PNN  Key Members and Affliations: Nick Harris, Dirk Englund, David Miller, MIT, Stanford</div>`)[0];
+                popup_f3dec3ad0e070012ff5c2ce8e502d888.setContent(html_c561323b4021c37073138c435f796be3);
+            
+        
+
+        marker_4f3790401237407f9aedbb2e7abf1bde.bindPopup(popup_f3dec3ad0e070012ff5c2ce8e502d888)
+        ;
+
+        
+    
+    
+            var marker_dba94f12ce765032ee4e2bbb8fc292c5 = L.marker(
+                [42.36784268385676, -71.0769286648599],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_ae5cc04820a8068e95ffb2fe651e7526 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7bfd2abc386c72192947b4251df782a6 = $(`<div id="html_7bfd2abc386c72192947b4251df782a6" style="width: 100.0%; height: 100.0%;">LightMatter  Size: 200  Focus: Optical MVM / PNN  Key Members and Affliations: Nick Harris, Dirk Englund, David Miller, MIT, Stanford</div>`)[0];
+                popup_ae5cc04820a8068e95ffb2fe651e7526.setContent(html_7bfd2abc386c72192947b4251df782a6);
+            
+        
+
+        marker_dba94f12ce765032ee4e2bbb8fc292c5.bindPopup(popup_ae5cc04820a8068e95ffb2fe651e7526)
+        ;
+
+        
+    
+    
+            var marker_7a84c9ca011c5ea3d1f20677ed80bae6 = L.marker(
+                [42.373495823769495, -71.07783343368789],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_15dfca0c40d7cbde4da0633359bffc83 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c97d7d2f9a34e369bafd9464a14def78 = $(`<div id="html_c97d7d2f9a34e369bafd9464a14def78" style="width: 100.0%; height: 100.0%;">Lightelligence  Size: 200  Focus: Optical MVM / Networking  Key Members and Affliations: Yichen Shen, MIT </div>`)[0];
+                popup_15dfca0c40d7cbde4da0633359bffc83.setContent(html_c97d7d2f9a34e369bafd9464a14def78);
+            
+        
+
+        marker_7a84c9ca011c5ea3d1f20677ed80bae6.bindPopup(popup_15dfca0c40d7cbde4da0633359bffc83)
+        ;
+
+        
+    
+    
+            var marker_1e8c5a32ec186979718a659aca5183de = L.marker(
+                [37.350487432995976, -121.90716097585653],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_2b90aec81370c9cb7a6ad3810ff29c05 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e81d1075333d29ad333a8666477b95ec = $(`<div id="html_e81d1075333d29ad333a8666477b95ec" style="width: 100.0%; height: 100.0%;">Ayar Labs  Size: 200+  Focus: Optical I/O for AI, Interconnection   Key Members and Affliations: Mark Wade</div>`)[0];
+                popup_2b90aec81370c9cb7a6ad3810ff29c05.setContent(html_e81d1075333d29ad333a8666477b95ec);
+            
+        
+
+        marker_1e8c5a32ec186979718a659aca5183de.bindPopup(popup_2b90aec81370c9cb7a6ad3810ff29c05)
+        ;
+
+        
+    
+    
+            var marker_c244ebf369760b53f3a7ce9bd335c9a5 = L.marker(
+                [37.42909495887933, -122.1439757150731],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_b014944107fce18dbe39d9bf6108a48e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bbcccbea74d3992efeb863a994faeda5 = $(`<div id="html_bbcccbea74d3992efeb863a994faeda5" style="width: 100.0%; height: 100.0%;">PsiQuantum  Size: 280  Focus: Quantum Computing / Optical Interconnect  Key Members and Affliations: Jeremy O'Brien; Terry Rudolph; Peter Shadbolt; Mark Thompson</div>`)[0];
+                popup_b014944107fce18dbe39d9bf6108a48e.setContent(html_bbcccbea74d3992efeb863a994faeda5);
+            
+        
+
+        marker_c244ebf369760b53f3a7ce9bd335c9a5.bindPopup(popup_b014944107fce18dbe39d9bf6108a48e)
+        ;
+
+        
+    
+    
+            var marker_3a196b545caa4c4754f1530e1bd9f41b = L.marker(
+                [32.06816922341151, 34.77080992775641],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_152df302ef2b63070cc9cfa258dcf44a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_301c4a6d24466da46a42077ff26c5b8e = $(`<div id="html_301c4a6d24466da46a42077ff26c5b8e" style="width: 100.0%; height: 100.0%;">Quantum Transistors  Size: 50  Focus: solid-state quantum processor  Key Members and Affliations: Shmuel Bachinsky</div>`)[0];
+                popup_152df302ef2b63070cc9cfa258dcf44a.setContent(html_301c4a6d24466da46a42077ff26c5b8e);
+            
+        
+
+        marker_3a196b545caa4c4754f1530e1bd9f41b.bindPopup(popup_152df302ef2b63070cc9cfa258dcf44a)
+        ;
+
+        
+    
+    
+            var marker_48aa21ed474d9cb563b172bbacce140d = L.marker(
+                [40.694010412138965, -73.99173128397491],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_c51a4bfa484b8a73d19da6980ab750cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6440473c39194a536fb3f9aa6b925b70 = $(`<div id="html_6440473c39194a536fb3f9aa6b925b70" style="width: 100.0%; height: 100.0%;">Quantum Transistors  Size: 50  Focus: solid-state quantum processor  Key Members and Affliations: Shmuel Bachinsky</div>`)[0];
+                popup_c51a4bfa484b8a73d19da6980ab750cf.setContent(html_6440473c39194a536fb3f9aa6b925b70);
+            
+        
+
+        marker_48aa21ed474d9cb563b172bbacce140d.bindPopup(popup_c51a4bfa484b8a73d19da6980ab750cf)
+        ;
+
+        
+    
+    
+            var marker_3df21f61d79dffa181fb487680b48aa6 = L.marker(
+                [48.79376585476282, 9.169827940505577],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_9da35ab9f573f87369117c972ee3029e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2181d63334cef30c0972314bbb57dc4 = $(`<div id="html_a2181d63334cef30c0972314bbb57dc4" style="width: 100.0%; height: 100.0%;">Q.ANT  Size: 100  Focus: Optical MVM  Key Members and Affliations: Michael Förtsch, TRUMPF Photonics</div>`)[0];
+                popup_9da35ab9f573f87369117c972ee3029e.setContent(html_a2181d63334cef30c0972314bbb57dc4);
+            
+        
+
+        marker_3df21f61d79dffa181fb487680b48aa6.bindPopup(popup_9da35ab9f573f87369117c972ee3029e)
+        ;
+
+        
+    
+    
+            var marker_e3745984c98fc8d3e4d163dbf892e844 = L.marker(
+                [51.76825278404829, -1.2445129642807493],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_1605faac95dd8aad557d25c6cfa34a6c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40907415228a5ce1c0504059aa61395e = $(`<div id="html_40907415228a5ce1c0504059aa61395e" style="width: 100.0%; height: 100.0%;">Lumai   Size: 20  Focus: 3D optical AI computing   Key Members and Affliations: James Spall, University of Oxford</div>`)[0];
+                popup_1605faac95dd8aad557d25c6cfa34a6c.setContent(html_40907415228a5ce1c0504059aa61395e);
+            
+        
+
+        marker_e3745984c98fc8d3e4d163dbf892e844.bindPopup(popup_1605faac95dd8aad557d25c6cfa34a6c)
+        ;
+
+        
+    
+    
+            var marker_42a2fbf58a879ebd39f8e8095697df28 = L.marker(
+                [39.455351954675315, -0.3580160261836655],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_0b26c4a8587ce30d075cc2b334797c8c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e072b418b0ab06b173bf25e96e655c9 = $(`<div id="html_4e072b418b0ab06b173bf25e96e655c9" style="width: 100.0%; height: 100.0%;">iPRONICS  Size: < 50  Focus: Microwave Photonics and Networking  Key Members and Affliations: Jose Capmany</div>`)[0];
+                popup_0b26c4a8587ce30d075cc2b334797c8c.setContent(html_4e072b418b0ab06b173bf25e96e655c9);
+            
+        
+
+        marker_42a2fbf58a879ebd39f8e8095697df28.bindPopup(popup_0b26c4a8587ce30d075cc2b334797c8c)
+        ;
+
+        
+    
+    
+            var marker_193987c84bb27d5b73ecdba6346b06fd = L.marker(
+                [51.77151542436479, -1.2717384965294634],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_1b36fea53e6b1a02ea7771a4019cc15b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a19ef48844eb149d4d15811f7c874da = $(`<div id="html_9a19ef48844eb149d4d15811f7c874da" style="width: 100.0%; height: 100.0%;">Salience Labs  Size: < 50  Focus: silicon photonic solutions that will solve the challenge the growth in AI  Key Members and Affliations: Oxford, Harish Bhaskaran and Wolfram Pernice</div>`)[0];
+                popup_1b36fea53e6b1a02ea7771a4019cc15b.setContent(html_9a19ef48844eb149d4d15811f7c874da);
+            
+        
+
+        marker_193987c84bb27d5b73ecdba6346b06fd.bindPopup(popup_1b36fea53e6b1a02ea7771a4019cc15b)
+        ;
+
+        
+    
+    
+            var marker_8bba072e315734659805631b07d94ba6 = L.marker(
+                [51.18101972539528, 10.427926712921447],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_c7631b0009eed023cca497cedc6caf74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_477b6e36b0f3dc7767db4e311905308d = $(`<div id="html_477b6e36b0f3dc7767db4e311905308d" style="width: 100.0%; height: 100.0%;">Pixel Photonics  Size: < 50  Focus: Superconducting Nanowire Single Photon Detectors (SNSPD) and Quantum Computing  Key Members and Affliations: Wolfram Pernice</div>`)[0];
+                popup_c7631b0009eed023cca497cedc6caf74.setContent(html_477b6e36b0f3dc7767db4e311905308d);
+            
+        
+
+        marker_8bba072e315734659805631b07d94ba6.bindPopup(popup_c7631b0009eed023cca497cedc6caf74)
+        ;
+
+        
+    
+    
+            var marker_5f84f5ae2d25e9a8e9d2655a1fb51019 = L.marker(
+                [49.243119231245046, -123.1332733088848],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_4b91b38075da0953233eb1a562fcc402 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e707cae6801d2143f2d69f922eee1738 = $(`<div id="html_e707cae6801d2143f2d69f922eee1738" style="width: 100.0%; height: 100.0%;">Dream Photonics   Size: 10  Focus: Packaging and Layout Design; world’s best chipsets for integrated photonics  Key Members and Affliations: Lukas Chrostowski</div>`)[0];
+                popup_4b91b38075da0953233eb1a562fcc402.setContent(html_e707cae6801d2143f2d69f922eee1738);
+            
+        
+
+        marker_5f84f5ae2d25e9a8e9d2655a1fb51019.bindPopup(popup_4b91b38075da0953233eb1a562fcc402)
+        ;
+
+        
+    
+    
+            var marker_75fb4a8c49a5cd7a403b7c5d20dc7e95 = L.marker(
+                [52.52653784138502, 13.413319819540867],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_7fe9f74114b269a31cdc3fa78df093f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_491a7e7b664587c9ba22bd64f5e11c89 = $(`<div id="html_491a7e7b664587c9ba22bd64f5e11c89" style="width: 100.0%; height: 100.0%;">Akhetonics  Size: < 50  Focus: Neuromorphic, Quantum, Analog, Digital, ADC  Key Members and Affliations: Michael Kissner,  Leonardo Del Bino</div>`)[0];
+                popup_7fe9f74114b269a31cdc3fa78df093f7.setContent(html_491a7e7b664587c9ba22bd64f5e11c89);
+            
+        
+
+        marker_75fb4a8c49a5cd7a403b7c5d20dc7e95.bindPopup(popup_7fe9f74114b269a31cdc3fa78df093f7)
+        ;
+
+        
+    
+    
+            var marker_bd7a97a766312bca494dae644ece2fc1 = L.marker(
+                [37.368909221215624, -121.94135845425527],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_efe07c0d9756610538a819b0736e2747 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_03184eef1787bc76030b59abb2dcb94a = $(`<div id="html_03184eef1787bc76030b59abb2dcb94a" style="width: 100.0%; height: 100.0%;">Celestial AI  Size: < 200  Focus: Photonic Fabric (Networking for AI)  Key Members and Affliations: David Lazovsky</div>`)[0];
+                popup_efe07c0d9756610538a819b0736e2747.setContent(html_03184eef1787bc76030b59abb2dcb94a);
+            
+        
+
+        marker_bd7a97a766312bca494dae644ece2fc1.bindPopup(popup_efe07c0d9756610538a819b0736e2747)
+        ;
+
+        
+    
+    
+            var marker_bc627492508719598328ad997f698e69 = L.marker(
+                [43.13714673289389, -75.82797224934568],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_e8831ac535882f3fb67c501c7a8cdaf5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47f09a736dc74dd96ffa06352876a355 = $(`<div id="html_47f09a736dc74dd96ffa06352876a355" style="width: 100.0%; height: 100.0%;">Xscape Photonics  Size: < 50  Focus: photonics solutions that enable the next generation of AI, ML, and simulation hardware.  Key Members and Affliations: Vivek Raghunathan, Michal Lipson, Keren Bergman, Columbia</div>`)[0];
+                popup_e8831ac535882f3fb67c501c7a8cdaf5.setContent(html_47f09a736dc74dd96ffa06352876a355);
+            
+        
+
+        marker_bc627492508719598328ad997f698e69.bindPopup(popup_e8831ac535882f3fb67c501c7a8cdaf5)
+        ;
+
+        
+    
+    
+            var marker_ad7fc47a225ebe1dc41574f91620a4bf = L.marker(
+                [30.257013313824288, -97.73368706442757],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_e0391d03b537550064d8de6e640b709c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f12a10d500035af6fc3bab89a9d423f4 = $(`<div id="html_f12a10d500035af6fc3bab89a9d423f4" style="width: 100.0%; height: 100.0%;">Optelligence  Size: < 3  Focus: Photonic AI   Key Members and Affliations: Volker J. Sorger</div>`)[0];
+                popup_e0391d03b537550064d8de6e640b709c.setContent(html_f12a10d500035af6fc3bab89a9d423f4);
+            
+        
+
+        marker_ad7fc47a225ebe1dc41574f91620a4bf.bindPopup(popup_e0391d03b537550064d8de6e640b709c)
+        ;
+
+        
+    
+    
+            var marker_64849068b610817e16ca7fa16ff1dafc = L.marker(
+                [40.684643683833364, -74.38251798507676],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_e8a9eb9f677163e831e10b99ffde5b91 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_102961d54ac08ef647877b72c2c52061 = $(`<div id="html_102961d54ac08ef647877b72c2c52061" style="width: 100.0%; height: 100.0%;">Nubis Communications  Size: < 50   Focus: Co-Packaged Optics, Pluggable Transceivers, Active Optical Cables  Key Members and Affliations: Peter Winzer, Bell Labs</div>`)[0];
+                popup_e8a9eb9f677163e831e10b99ffde5b91.setContent(html_102961d54ac08ef647877b72c2c52061);
+            
+        
+
+        marker_64849068b610817e16ca7fa16ff1dafc.bindPopup(popup_e8a9eb9f677163e831e10b99ffde5b91)
+        ;
+
+        
+    
+    
+            var marker_4fb046056bf726c5a60860b32eb97cf5 = L.marker(
+                [40.70062611587187, -73.9878966333826],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_3253a285b011b3634add53811509b08b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_429e9a9fc14e0e89ee39b0baa8cf8dba = $(`<div id="html_429e9a9fc14e0e89ee39b0baa8cf8dba" style="width: 100.0%; height: 100.0%;">Voyant Photonics  Size: < 30  Focus: LiDAR  Key Members and Affliations: Steven Miller, Michel Lipson</div>`)[0];
+                popup_3253a285b011b3634add53811509b08b.setContent(html_429e9a9fc14e0e89ee39b0baa8cf8dba);
+            
+        
+
+        marker_4fb046056bf726c5a60860b32eb97cf5.bindPopup(popup_3253a285b011b3634add53811509b08b)
+        ;
+
+        
+    
+    
+            var marker_110b93c0843af02e47dec7b40c10502f = L.marker(
+                [53.36537314440248, -1.4503218495461112],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_e06ce827135f07ca783c7cc8c4f5ce4b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d348afd9bf0388ffc6f6c96abc3d952 = $(`<div id="html_2d348afd9bf0388ffc6f6c96abc3d952" style="width: 100.0%; height: 100.0%;">Aegiq  Size: < 50   Focus: Full Stack Quantum Computing  Key Members and Affliations: Scott Dufferwiel, Univ. of Sheffield</div>`)[0];
+                popup_e06ce827135f07ca783c7cc8c4f5ce4b.setContent(html_2d348afd9bf0388ffc6f6c96abc3d952);
+            
+        
+
+        marker_110b93c0843af02e47dec7b40c10502f.bindPopup(popup_e06ce827135f07ca783c7cc8c4f5ce4b)
+        ;
+
+        
+    
+    
+            var marker_c949429df0509e4448523ffdcd404d97 = L.marker(
+                [52.21719141710155, 0.13348862823451885],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_558ead90656449f1d573ff9318d21a20 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8a7cba308b8bd3cd49eda89eb6b102d = $(`<div id="html_e8a7cba308b8bd3cd49eda89eb6b102d" style="width: 100.0%; height: 100.0%;">Nu-quantum  Size: < 50   Focus: Photonic-Enabled Quantum Computing  Key Members and Affliations: Dr. Carmen Palacios-Berraquero, University of Cambridge</div>`)[0];
+                popup_558ead90656449f1d573ff9318d21a20.setContent(html_e8a7cba308b8bd3cd49eda89eb6b102d);
+            
+        
+
+        marker_c949429df0509e4448523ffdcd404d97.bindPopup(popup_558ead90656449f1d573ff9318d21a20)
+        ;
+
+        
+    
+    
+            var marker_77a8cf905b1efcc7a8f438651e29b2b1 = L.marker(
+                [46.54410557478469, 6.579462469524698],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_5a600bdd1d1b3709373b901fe737ae90 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e922f6e89bcbe188ceabf13da7a664e7 = $(`<div id="html_e922f6e89bcbe188ceabf13da7a664e7" style="width: 100.0%; height: 100.0%;">Miraex  Size: 50  Focus: photonic and quantum solutions for next-generation sensing, networking and computing  Key Members and Affliations: Nicolas Abelé, Karel Dumon and Clément Javerzac-Galy, Miraex, EPFL </div>`)[0];
+                popup_5a600bdd1d1b3709373b901fe737ae90.setContent(html_e922f6e89bcbe188ceabf13da7a664e7);
+            
+        
+
+        marker_77a8cf905b1efcc7a8f438651e29b2b1.bindPopup(popup_5a600bdd1d1b3709373b901fe737ae90)
+        ;
+
+        
+    
+    
+            var marker_9d784ca183fd34f62752f3e5c5a02862 = L.marker(
+                [59.92944198347389, 10.72172751652086],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_0be2409b890bf04ff3eabb7d9450f60d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e6da45695d912b9fef5f93b8ea05f02 = $(`<div id="html_2e6da45695d912b9fef5f93b8ea05f02" style="width: 100.0%; height: 100.0%;">Nordic Quantum Computing Group  Size: CLOSED 11/2024  Focus: CLOSED 11/2024  Key Members and Affliations: CLOSED 11/2024</div>`)[0];
+                popup_0be2409b890bf04ff3eabb7d9450f60d.setContent(html_2e6da45695d912b9fef5f93b8ea05f02);
+            
+        
+
+        marker_9d784ca183fd34f62752f3e5c5a02862.bindPopup(popup_0be2409b890bf04ff3eabb7d9450f60d)
+        ;
+
+        
+    
+    
+            var marker_2d955f52d7cd966c14ad4c4b641bce1e = L.marker(
+                [51.47170980032355, -0.13396433601261035],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_18593fa771f8b747da74574e8d0582fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_400bd9684c19630b0e7ad2c66f47bc03 = $(`<div id="html_400bd9684c19630b0e7ad2c66f47bc03" style="width: 100.0%; height: 100.0%;">Orca Computing  Size: ~100  Focus: error-corrected photonic quantum computers  Key Members and Affliations: Professor Ian Walmsley, Josh Nunn, Richard Murray, University of Oxford</div>`)[0];
+                popup_18593fa771f8b747da74574e8d0582fc.setContent(html_400bd9684c19630b0e7ad2c66f47bc03);
+            
+        
+
+        marker_2d955f52d7cd966c14ad4c4b641bce1e.bindPopup(popup_18593fa771f8b747da74574e8d0582fc)
+        ;
+
+        
+    
+    
+            var marker_e8ebcfaf77d2d1614f535ca085bc2d81 = L.marker(
+                [43.67119964119498, -79.39749641379129],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_f7fb2e06a167dbdb2b8a70a3e1e2f2a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6798cc37537df1a1350bff9f47e860e = $(`<div id="html_f6798cc37537df1a1350bff9f47e860e" style="width: 100.0%; height: 100.0%;">Orca Computing  Size: ~100  Focus: error-corrected photonic quantum computers  Key Members and Affliations: Professor Ian Walmsley, Josh Nunn, Richard Murray, University of Oxford</div>`)[0];
+                popup_f7fb2e06a167dbdb2b8a70a3e1e2f2a6.setContent(html_f6798cc37537df1a1350bff9f47e860e);
+            
+        
+
+        marker_e8ebcfaf77d2d1614f535ca085bc2d81.bindPopup(popup_f7fb2e06a167dbdb2b8a70a3e1e2f2a6)
+        ;
+
+        
+    
+    
+            var marker_3d40d14a2250b719694bb066ef05d43b = L.marker(
+                [30.28489087035899, -97.72494460523872],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_8f15e1437a795cbc6cbe1010c05248aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0911a5be1a85139223d34071888455d8 = $(`<div id="html_0911a5be1a85139223d34071888455d8" style="width: 100.0%; height: 100.0%;">Orca Computing  Size: ~100  Focus: error-corrected photonic quantum computers  Key Members and Affliations: Professor Ian Walmsley, Josh Nunn, Richard Murray, University of Oxford</div>`)[0];
+                popup_8f15e1437a795cbc6cbe1010c05248aa.setContent(html_0911a5be1a85139223d34071888455d8);
+            
+        
+
+        marker_3d40d14a2250b719694bb066ef05d43b.bindPopup(popup_8f15e1437a795cbc6cbe1010c05248aa)
+        ;
+
+        
+    
+    
+            var marker_06c470c85fdf377d9ef902b49118ec1d = L.marker(
+                [49.243448950903954, -123.10140854102725],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_b4ef167f659097bf0e65790f9c75ffbc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1f0c2773e4ac0835f4c9862a6ee12f7 = $(`<div id="html_f1f0c2773e4ac0835f4c9862a6ee12f7" style="width: 100.0%; height: 100.0%;">Photonic Inc  Size: < 50  Focus: Silicon photonic Quantum Computing  Key Members and Affliations: Paul Terry, Stephanie Simmons, Simon Fraser University</div>`)[0];
+                popup_b4ef167f659097bf0e65790f9c75ffbc.setContent(html_f1f0c2773e4ac0835f4c9862a6ee12f7);
+            
+        
+
+        marker_06c470c85fdf377d9ef902b49118ec1d.bindPopup(popup_b4ef167f659097bf0e65790f9c75ffbc)
+        ;
+
+        
+    
+    
+            var marker_d6ed7927aeeda793d50ab896a671a064 = L.marker(
+                [48.71744525163626, 2.295900209955368],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_285804d47820650436b26d04f97c9f49 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c0905baa43ce28be81489094feac95e = $(`<div id="html_7c0905baa43ce28be81489094feac95e" style="width: 100.0%; height: 100.0%;">Quandela   Size: < 50  Focus: Silicon photonic Quantum Computing  Key Members and Affliations: Centre for Nanoscience and Nanotechnology</div>`)[0];
+                popup_285804d47820650436b26d04f97c9f49.setContent(html_7c0905baa43ce28be81489094feac95e);
+            
+        
+
+        marker_d6ed7927aeeda793d50ab896a671a064.bindPopup(popup_285804d47820650436b26d04f97c9f49)
+        ;
+
+        
+    
+    
+            var marker_0933573b3e351101b5af4d915e4fc061 = L.marker(
+                [48.41780622412432, 10.00572819275427],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_a7e44dff7fa0d09e0e2ca1bcce60ccbb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34e39d10267650e4ec16762c2bbad81f = $(`<div id="html_34e39d10267650e4ec16762c2bbad81f" style="width: 100.0%; height: 100.0%;">Quix  Size: < 50  Focus: photonic quantum processor based upon silicon nitride waveguides  Key Members and Affliations: Hans van den Vlekkert, University of Twente</div>`)[0];
+                popup_a7e44dff7fa0d09e0e2ca1bcce60ccbb.setContent(html_34e39d10267650e4ec16762c2bbad81f);
+            
+        
+
+        marker_0933573b3e351101b5af4d915e4fc061.bindPopup(popup_a7e44dff7fa0d09e0e2ca1bcce60ccbb)
+        ;
+
+        
+    
+    
+            var marker_a56a7b2d7028f5ec830bdf9a146161af = L.marker(
+                [48.76613371454028, 9.168164455229286],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_7bbb3072f3a6385fc33ee8e2471972eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76138b9cb089ca6ee6e572ef995ff70d = $(`<div id="html_76138b9cb089ca6ee6e572ef995ff70d" style="width: 100.0%; height: 100.0%;">Quix  Size: < 50  Focus: photonic quantum processor based upon silicon nitride waveguides  Key Members and Affliations: Hans van den Vlekkert, University of Twente</div>`)[0];
+                popup_7bbb3072f3a6385fc33ee8e2471972eb.setContent(html_76138b9cb089ca6ee6e572ef995ff70d);
+            
+        
+
+        marker_a56a7b2d7028f5ec830bdf9a146161af.bindPopup(popup_7bbb3072f3a6385fc33ee8e2471972eb)
+        ;
+
+        
+    
+    
+            var marker_c8d8bf72553a2c3318376c711cfc3926 = L.marker(
+                [52.35590475530714, 4.87668418825573],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_d3459202a393936ddaa47fe77c2b4bfa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d34b45c578172c5ba61676a8c91de686 = $(`<div id="html_d34b45c578172c5ba61676a8c91de686" style="width: 100.0%; height: 100.0%;">Quix  Size: < 50  Focus: photonic quantum processor based upon silicon nitride waveguides  Key Members and Affliations: Hans van den Vlekkert, University of Twente</div>`)[0];
+                popup_d3459202a393936ddaa47fe77c2b4bfa.setContent(html_d34b45c578172c5ba61676a8c91de686);
+            
+        
+
+        marker_c8d8bf72553a2c3318376c711cfc3926.bindPopup(popup_d3459202a393936ddaa47fe77c2b4bfa)
+        ;
+
+        
+    
+    
+            var marker_4d658856b8399d9f9d251adc56f2852d = L.marker(
+                [52.20606843706623, 6.88655780628147],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_4cb40fac10091514fbd92b60c7040f74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f7f599cdac7f9c9d60d7eca29b50505 = $(`<div id="html_6f7f599cdac7f9c9d60d7eca29b50505" style="width: 100.0%; height: 100.0%;">Quix  Size: < 50  Focus: photonic quantum processor based upon silicon nitride waveguides  Key Members and Affliations: Hans van den Vlekkert, University of Twente</div>`)[0];
+                popup_4cb40fac10091514fbd92b60c7040f74.setContent(html_6f7f599cdac7f9c9d60d7eca29b50505);
+            
+        
+
+        marker_4d658856b8399d9f9d251adc56f2852d.bindPopup(popup_4cb40fac10091514fbd92b60c7040f74)
+        ;
+
+        
+    
+    
+            var marker_abb9278450febaf1c325e1e9ca49e216 = L.marker(
+                [55.70179819892646, 12.55515951776402],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_ff25d6828293ee10d02ca396958d013b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d225f430a8c593b1747270e5e6543c46 = $(`<div id="html_d225f430a8c593b1747270e5e6543c46" style="width: 100.0%; height: 100.0%;">Sparrow Quantum  Size: < 50   Focus: photonic quantum technology components  Key Members and Affliations: Peter Lodahl, Niels Bohr Institute Quantum Photonics Lab</div>`)[0];
+                popup_ff25d6828293ee10d02ca396958d013b.setContent(html_d225f430a8c593b1747270e5e6543c46);
+            
+        
+
+        marker_abb9278450febaf1c325e1e9ca49e216.bindPopup(popup_ff25d6828293ee10d02ca396958d013b)
+        ;
+
+        
+    
+    
+            var marker_ea249d87a9d70f0bffa0a51e5dc11520 = L.marker(
+                [47.362603985546436, 8.529122497172361],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_b084bc2114c534163612eab03b3409a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f34d61c4cff0348d5287a3cac2de7f18 = $(`<div id="html_f34d61c4cff0348d5287a3cac2de7f18" style="width: 100.0%; height: 100.0%;">Lumiphase  Size: < 100   Focus: Optical interconnects and computing using Si Ph and BTO  Key Members and Affliations: Stefan Abel, BTO Modulator Author,  started by IBM Si Ph people</div>`)[0];
+                popup_b084bc2114c534163612eab03b3409a9.setContent(html_f34d61c4cff0348d5287a3cac2de7f18);
+            
+        
+
+        marker_ea249d87a9d70f0bffa0a51e5dc11520.bindPopup(popup_b084bc2114c534163612eab03b3409a9)
+        ;
+
+        
+    
+    
+            var marker_13c23f53af2337cc5f90f9994d928cae = L.marker(
+                [36.6855461553818, -118.77479819288952],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_d3e047147bb54e3abdaf1da532e1677e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91c6c21274c8e25b2a072e42e4244af5 = $(`<div id="html_91c6c21274c8e25b2a072e42e4244af5" style="width: 100.0%; height: 100.0%;">Enosemi  Size: < 50   Focus: Photonic-Electronic Design IP and Custom Silicon  Key Members and Affliations: Matt Streshinsky, Came out of Lumious Computing</div>`)[0];
+                popup_d3e047147bb54e3abdaf1da532e1677e.setContent(html_91c6c21274c8e25b2a072e42e4244af5);
+            
+        
+
+        marker_13c23f53af2337cc5f90f9994d928cae.bindPopup(popup_d3e047147bb54e3abdaf1da532e1677e)
+        ;
+
+        
+    
+    
+            var marker_b6f7edf0af5a6dd4832d929b3752e1a5 = L.marker(
+                [34.452932444072715, -119.8152777304203],
+                {
+}
+            ).addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+    
+        var popup_3f29df57f208840f3c28c5d2dedc5606 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b2c38ef82bb4d196e54273892a9d7419 = $(`<div id="html_b2c38ef82bb4d196e54273892a9d7419" style="width: 100.0%; height: 100.0%;">Nexus Photonics  Size: < 20   Focus: Advanced heterogeneous integration, SiN, GaAs, GaN, InP  Key Members and Affliations: x</div>`)[0];
+                popup_3f29df57f208840f3c28c5d2dedc5606.setContent(html_b2c38ef82bb4d196e54273892a9d7419);
+            
+        
+
+        marker_b6f7edf0af5a6dd4832d929b3752e1a5.bindPopup(popup_3f29df57f208840f3c28c5d2dedc5606)
+        ;
+
+        
+    
+    
+            var tile_layer_a92a314176d42d2b6c8ecadade9d8998 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detect_retina": false, "max_native_zoom": 19, "max_zoom": 19, "min_zoom": 0, "no_wrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+            var mini_map_a66a05bd923fbf1c84b4dbf5d2a34902 = new L.Control.MiniMap(
+                tile_layer_a92a314176d42d2b6c8ecadade9d8998,
+                {
+  "position": "bottomright",
+  "width": 150,
+  "height": 150,
+  "collapsedWidth": 25,
+  "collapsedHeight": 25,
+  "zoomLevelOffset": -5,
+  "centerFixed": false,
+  "zoomAnimation": false,
+  "toggleDisplay": false,
+  "autoToggleDisplay": false,
+  "minimized": false,
+}
+            );
+            map_7266775bbf65f9708707c57db36de31d.addControl(mini_map_a66a05bd923fbf1c84b4dbf5d2a34902);
+        
+    
+            tile_layer_e9dc5f143c54c73a3431806c747d3c88.addTo(map_7266775bbf65f9708707c57db36de31d);
+        
+</script>
+</html>

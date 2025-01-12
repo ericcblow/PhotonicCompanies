@@ -10,4 +10,4 @@ To potentially add:
 
 Please feel free to contribute and update the database to add companies / fix any inaccuracies. 
 
-![alt text](CurrentCompanyMap.html)
+To currently view map open CurrentCompanyMap.html within the repository. 

@@ -7,6 +7,7 @@ To potentially add:
 - Date Founded
 - Cost-of-living
 - Salary (maybe pull from glassdoor/linkedin) 
+- Add Remote-work option?
 
 Please feel free to contribute and update the database to add companies / fix any inaccuracies. 
 

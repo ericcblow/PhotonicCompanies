@@ -1,5 +1,5 @@
 # PhotonicCompanies
-A database and a map of current companies working on integrated photonics within the computing and telecommunication space. This database is not all encompassing, just adding to this as I come across a company I was not aware of. There are a currently few catagories: Startups, Large Companies, Foundries, and Defense Contractors.
+A database and a map of current companies working on integrated photonics within the computing and telecommunication space. This database is not all encompassing, just adding to this as I come across a company I was not aware of. There are currently few catagories: Startups, Large Companies, Foundries, and Defense Contractors.
 
 The goal is to gain a global perspective of what people are working on within the space and the scale of the industry. Additionally, hopefully this is helpful to people within the space searching for job opprotunities. 
 

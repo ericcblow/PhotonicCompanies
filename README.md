@@ -8,6 +8,7 @@ To potentially add:
 - Cost-of-living
 - Salary (maybe pull from glassdoor/linkedin) 
 - Add Remote-work option?
+- Academic Groups? Maybe Seperate Repo?
 
 Please feel free to contribute and update the database to add companies / fix any inaccuracies. 
 

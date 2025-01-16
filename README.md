@@ -9,6 +9,7 @@ To potentially add:
 - Salary (maybe pull from glassdoor/linkedin) 
 - Add Remote-work option?
 - Academic Groups? Maybe Seperate Repo?
+- Add code to cache existing coordinates
 
 Please feel free to contribute and update the database to add companies / fix any inaccuracies. 
 

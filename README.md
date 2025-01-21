@@ -15,7 +15,7 @@ Please feel free to contribute and update the database to add companies / fix an
 To view the current version of the interactive map:
   1. [Click Here](https://ericcblow.github.io/PhotonicCompanies/CurrentCompanyMap.html)
   2. Open the CurrentCompanyMap.html within the repo
-  3. Run the jupyter lab. This will take a couple minutes but will allow for additional viewing options.
+  3. Run within the jupyter notebook
 
 
 Note: Company addresses are accurate on the city scale but not street-level

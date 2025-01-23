@@ -3,20 +3,23 @@ A database and a map of current companies working on integrated photonics within
 
 The goal is to gain a global perspective of what people are working on within the space and the scale of the industry. Additionally, hopefully this is helpful to people within the space searching for job opprotunities. 
 
+Last Updated: 1/2025
+Number of companies represented:  80
+Total number of offices:  171
+
 To potentially add: 
 - Date Founded
 - Cost-of-living
 - Salary (maybe pull from glassdoor/linkedin) 
 - Add Remote-work option?
 - Academic Groups? Maybe Seperate Repo?
-- Add code to cache existing coordinates
 
 Please feel free to contribute and update the database to add companies / fix any inaccuracies. 
 
 To view the current version of the interactive map:
   1. [Click Here](https://ericcblow.github.io/PhotonicCompanies/CurrentCompanyMap.html)
   2. Open the CurrentCompanyMap.html within the repo
-  3. Run the jupyter lab. This will take a couple minutes but will allow for additional viewing options.
+  3. Run within the jupyter notebook
 
 
 Note: Company addresses are accurate on the city scale but not street-level

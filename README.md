@@ -3,6 +3,10 @@ A database and a map of current companies working on integrated photonics within
 
 The goal is to gain a global perspective of what people are working on within the space and the scale of the industry. Additionally, hopefully this is helpful to people within the space searching for job opprotunities. 
 
+Last Updated: 1/2025
+Number of companies represented:  80
+Total number of offices:  171
+
 To potentially add: 
 - Date Founded
 - Cost-of-living

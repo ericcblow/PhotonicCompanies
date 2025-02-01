@@ -1,0 +1,28 @@
+Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5
+,Company Name,Size,Focus,CEO/Founders/Affliation,Location
+,Nvidia Research,200+,Circuit Research Group ,Tom Gray: Head of CRG,"Santa Clara, California and Seattle, Washington "
+,Google ,300+,Google Quantum AI + Taara @ Google X + Google Platforms,"Quantum: Hartmut Neven, Taara: Mahesh Krishnaswamy ","Mountain View, California and Zürich, Switzerland and Seattle, Washington and San Francisco, CA"
+,NEC Laboratories,500,"Fiber Sensing, Optical Compute, Fiber Telecommunication Optimization","President: Chris White, ONS Head: Ting Wang, Princeton University","Princeton, NJ and Tokyo, Japan"
+,Intel ,700,Optical input/output (I/O) technology innovation,Richard Uhlig,"Santa Clara, California and Hillsboro, Oregon "
+,Universal Display Corporation,470,"OLED technology, Tangential interest in optical compute","Sherwin Seligsohn, Stephen Forrest, Princeton University","Ewing Township, NJ"
+,OpenAI,1500,OpenAI is an AI research and deployment company. Potentially interested in optical interconnect and MVM,CEO: Sam Altman,"San Francisco, California"
+,Apple,30000,"Biophotonics, Interconnections, Periscope Lens, Senors, ",CEO: Tim Cook and VP of Hardware John Ternus,"Cupertino, California and Austin, Texas and Boulder, Colorado and Cork, Ireland"
+,AMD,5000,hown an interest in photonic technologies and the benefits of ultra-fast data communication,CEO: Lisa T. Su,"Santa Clara, California and Austin, Texas and Markham, Ontario, Canada and Boxborough, MA and Bangalore, India and Shanghai, China and Beijing, China"
+,Cisco,8000,"Photonic Quantum, Integrated Photonics for Networking ",CEO: Chuck Robbins,"Silicon Valley, California, USA and Bangalore, India and Beijing, China and Ottawa, Canada and Paris, France and Vimercate, Italy "
+,Luxtera,150,"Si Ph Optical Transceivers, 800G tranceivers","Founders: Axel Scherer, Michael Hochberg, Tom Baehr-Jones, Eli Yablonovitch | Caltech | Acquired by Cisco","San Diego, California, USA"
+,Infinera ,700,"III-V Optical Transceivers, PIC Design, Advanced Packaging, Analog Electronics, ASIC Design",CEO David W. Heard,"San Jose, California and Ottawa, ON, Canada and Stockhom Sweden and Munich, Germany and Lisbon, Portugal and Madrid, Spain and Warsaw, Poland and Zhubei, Taiwan"
+,Lumentum ,800,"optical components, lasers, modulators. Aquired NeoPhotonics",CEO: Alan S. Low,"San Jose, California, USA and Ottawa ON, Canada and Kanagawa, Japan and Shenzhen, Guangdong, China and Towcester, England"
+,Coherent Corp. ,1400,Optical transceivers and many optical devices,CEO: Mark E. Fisher,"Sunnyvale, CA, USA and Santa Clara, CA and Dallas, TX, USA and Bloomfield, CT, and Tuscon, Arizona and Hillsboro, Oregon and Düsseldorf, Germany"
+,Hamamatsu Photonics,500,"Semiconductor Manufacturing, Spectroscopy, Quantum Sensors,",CEO: Katsuhiro Kobayashi,"Bridgewater, New Jersey and Hamamatsu, Japan and Shanghai, China and Bad Homburg, Germany"
+,M Squared ,100,"Quantum technology, biophotonics, and chemical sensing","Graeme Malcolm Obe, Strathclyde University",Glasgow and London and Palo Alto and  Boston and Berlin
+,NTT,30,"Telecommunication, Research within Photonic Neural Networks and Photonic Accelerators","
+Yoshihisa Yamamoto, Director, PHI Lab","Tokyo, Japan"
+,IBM,15000,"Quantum Photonics, Integrated Photonics for intereconnects, potential interest in photonics for AI, Co-packaged optics",CEO ​​​​​Arvind Krishna,"Yorktown Heights, New York, USA and Albany, New York, USA and Sydney, Australia  and Zurich, Switzerland"
+,Synopsys Photonic Solutions,14000,"Design Software and Assistance for photonic integrated circuits, OptoDesigner",CEO Sassine Ghazi,"Mountain View, California and Montreal, Quebec, Canada"
+,Rockley Photonic,300,photonics chipset developer/supplier for high-volume sensor and communication products.,CEO: Richard Meier,"Pasadena, CA"
+,Hewlett Packard Labs,500,HP and Ayar Labs to co-develop silicon photonics-based optical I/O for HPC and AI,"CTO Tolga Kurtoglu; Fabian Böhm,, Bassem Tossoun, Thomas Van Vaerenbergh","Palo Alto, California and Grenoble, France"
+,Microsoft Research,100,"Analog Optical Computing. MicroLed Array, Free Space MVM, Electrical Nonlinearity","H. Ballani, G. Brennan, B. Canakci, J. Chu, J. H. Clegg, D. Cletheroe, C. Gkantsidis, J. Gladrow, K. P.
+Kalinin, D. J. Kelly, H. Kremer, G. O'Shea, F. Parmigiani, L. Pickup, B. Rahmani, A. Rowstron","Cambridge, England"
+,Nokia,500,"""WaveFabric"", switches, transceivers, silicon photonics",Marc Ulrich,"New York, NY, USA"
+,Nokia Bell Labs,200,"Neuromophic Photonics, Integrated photonics research, compute","President: Peter Vetter, Researchers: Mohamad Hossein Idjadi","Murray Hill, NJ, USA and New Brunswick, New Jersey"
+,Acacia Communications,400,"Optical Networking, Small Form Factor Pluggable Tranceivers","CEO: Raj Shanmugaraj , CTO:Benny P. Mikkelsen","Maynard, Massachusetts, USA"

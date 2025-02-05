@@ -24,3 +24,5 @@ To view the current version of the interactive map:
 
 
 Note: Company addresses are accurate on the city scale but not street-level
+
+![preview](preview_020525.jpg)

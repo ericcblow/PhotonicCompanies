@@ -7,6 +7,7 @@ Last Updated: Feb, 2025 <br>
 Number of companies represented:  107 <br>
 Total number of offices:  216 <br>
 
+
 To potentially add: 
 - Date Founded
 - Cost-of-living

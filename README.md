@@ -15,8 +15,7 @@ To potentially add: <br>
 - Add Remote-work option? <br>
 - Academic Groups? Maybe Seperate Repo? <br>
 
-Please feel free to contribute and update the database to add companies / fix any inaccuracies. <br>
-This list is not exhaustive and I will continue to update regularly. <br> 
+Please feel free to contribute and update the database to add companies / fix any inaccuracies. This list is not exhaustive and I will continue to update regularly. <br> 
 
 To view the current version of the interactive map: <br>
   1. [Click Here](https://ericcblow.github.io/PhotonicCompanies/CurrentCompanyMap.html) <br>

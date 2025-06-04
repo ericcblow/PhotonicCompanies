@@ -30,16 +30,16 @@ Germany,51.1638175,10.4478313
 "Ulm, Germany",48.3984968,9.9912458
 "Stuttgart Germany,",48.7784485,9.1800132
 "Amsterdam, Netherlands,",52.3730796,4.8924534
-"Enschede, Netherlands",52.22336325,6.870595664097989
+"Enschede, Netherlands",52.22336325,6.870595664
 "Copenhagen, Denmark",55.6867243,12.5700724
 "Zurich, Switzerland",47.3744489,8.5410422
 "San Francisco, CA",37.7792588,-122.4193286
 "Toronto, Canada",43.6534817,-79.3839347
 "Goleta, California, USA",34.4358295,-119.8276389
 "Aachen, Germany",50.776351,6.083862
-"Agia Paraskevi, Athens, Greece",37.97387515,23.72516627285377
+"Agia Paraskevi, Athens, Greece",37.97387515,23.72516627
 "Santa Clara, CA",37.3541132,-121.955174
-"Paris, France",48.8588897,2.3200410217200766
+"Paris, France",48.8588897,2.320041022
 "San Francisco, California",37.7792588,-122.4193286
 "Delft, South Holland, Netherlands",52.0114017,4.35839
 "Leeds, England",53.7974185,-1.5437941
@@ -58,7 +58,7 @@ Germany,51.1638175,10.4478313
 "Cork, Ireland",51.897077,-8.4654674
 "Markham, Ontario, Canada",43.8563707,-79.3376825
 "Boxborough, MA",42.4827512,-71.5142726
-"Bangalore, India",12.98815675,77.62260003796
+"Bangalore, India",12.98815675,77.62260004
 "Shanghai, China",31.2312707,121.4700152
 "Beijing, China",40.190632,116.412144
 "Silicon Valley, California, USA",37.4429964,-122.1545229
@@ -71,7 +71,7 @@ Stockhom Sweden,59.4721698,18.1134415
 "Munich, Germany",48.1371079,11.5753822
 "Lisbon, Portugal",38.7077507,-9.1365919
 "Madrid, Spain",40.4167047,-3.7035825
-"Warsaw, Poland",52.2337172,21.071432235636493
+"Warsaw, Poland",52.2337172,21.07143224
 "Zhubei, Taiwan",24.839682,121.0040779
 "San Jose, California, USA",37.3361663,-121.890591
 "Ottawa ON, Canada",45.4208777,-75.6901106
@@ -81,17 +81,17 @@ Stockhom Sweden,59.4721698,18.1134415
 "Sunnyvale, CA, USA",37.3688301,-122.036349
 "Dallas, TX, USA",32.7762719,-96.7968559
 "Bloomfield, CT,",41.826488,-72.7300945
-"Tuscon, Arizona",32.1975767247524,-111.0808305629571
+"Tuscon, Arizona",32.19757672,-111.0808306
 "Düsseldorf, Germany",51.2254018,6.7763137
 "Bridgewater, New Jersey",40.5598127,-74.5517146
 "Hamamatsu, Japan",34.7109786,137.7259431
 "Bad Homburg, Germany",50.2363508,8.5980265
 Glasgow,55.861155,-4.2501687
-London,51.4893335,-0.14405508452768728
+London,51.4893335,-0.144055085
 Palo Alto,37.4443293,-122.1598465
 Boston,42.3554334,-71.060511
 Berlin,52.510885,13.3989367
-"Yorktown Heights, New York, USA",41.27017805,-73.7753539093026
+"Yorktown Heights, New York, USA",41.27017805,-73.77535391
 "Albany, New York, USA",42.6511674,-73.754968
 "Sydney, Australia",-33.8698439,151.2082848
 "Montreal, Quebec, Canada",45.5031824,-73.5698065
@@ -107,7 +107,7 @@ Berlin,52.510885,13.3989367
 "Dresden, Germany",51.0493286,13.7381437
 Leuven Belgium,50.879202,4.7011675
 "Sofia, Bulgaria",42.6977028,23.3217359
-"Bengaluru, India",12.98815675,77.62260003796
+"Bengaluru, India",12.98815675,77.62260004
 "Hsinchu, Taiwan",24.8066333,120.9686833
 Malaysia,4.5693754,102.2656823
 "Seoul, South Korea",37.5666791,126.9782914
@@ -121,17 +121,17 @@ Singapore ,1.357107,103.8194992
 "Migdal Haemek, Israel",32.6765744,35.2413237
 "Newport Beach, CA, USA",33.6170092,-117.9294401
 "San Antonio, Texas",29.4246002,-98.4951405
-"Hokuriku, Japan",37.6388810407918,138.93019992963963
+"Hokuriku, Japan",37.63888104,138.9301999
 "Agrate, Italy",45.6767979,8.552925
 "Vaud, Switzerland",46.6356963,6.5320717
 Otaniemi Espoo Finland,60.1879383,24.8318201
 "Leuven, Belgium",50.879202,4.7011675
-"Kissimmee, FL",28.2782758,-81.39828424712871
+"Kissimmee, FL",28.2782758,-81.39828425
 "Berkeley, CA",37.8708393,-122.272863
 "Eindhoven, Netherlands",51.4392648,5.478633
-"Antwerp, Netherlands",52.34757026829803,6.694937496335172
+"Antwerp, Netherlands",52.34757027,6.694937496
 "Chicago, IL, USA",41.8755616,-87.6244212
-"Ann Harbor, Michigan",42.2487122,-83.74680226164384
+"Ann Harbor, Michigan",42.2487122,-83.74680226
 "West Lafayette, IN",40.4258686,-86.9080655
 "Montreal, Canada",45.5031824,-73.5698065
 "Kingston, Canada",44.3054151,-76.4283781
@@ -178,3 +178,21 @@ Madrid. Spain,9.2617815,125.9637534
 "Edinburgh, Scotland",55.9533456,-3.1883749
 "Dublin, Ireland",53.3493795,-6.2605593
 "Goleta, California",34.4358295,-119.8276389
+"Petah Tikva, Israel",32.0906241,34.8839813
+"Cambridge,
+Massachusetts, USA",42.3656347,-71.1040018
+"Menlo Park, California, USA",37.4519671,-122.177992
+"Hwaseong-si, South Korea",37.1994653,126.8312632
+"Santa Clara, California, USA",37.3541132,-121.955174
+"Douglas County, Colorado",39.3420437,-104.9468945
+"Rosh HaAyin, Israel",32.0952929,34.9533225
+"Shenzhen, China",22.5445741,114.0545429
+"New Taipei City, Taiwan",25.0267902,121.4710784
+"New Delhi, India",28.6430858,77.2192671
+"Bernin, France",45.26701,5.86248
+"Gloucester, Massachusetts, USA",42.61882,-70.66571
+"Karlsruhe, Germany",49.0023,8.39099
+"Tomaszow Mazowiecki, Poland",51.52868,20.009263
+"Taipei, Taiwan",25.0378,121.551542
+"Fremont, California, USA",37.547984,-121.9978
+"St. Petersburg, Florida, USA",27.76727,-82.66193

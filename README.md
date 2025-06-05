@@ -26,6 +26,6 @@ To view the current version of the interactive map: <br>
 Note: Company addresses are accurate on the city scale but not street-level. <br>
 
 World Map Preview <br>
-![preview](preview_020525.jpg)
+![preview](preview_060525.jpg)
 ![SF](preview_thebay.jpg)
 ![euro](preview_euro.jpg)

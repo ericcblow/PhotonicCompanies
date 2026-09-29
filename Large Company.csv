@@ -1,7 +1,7 @@
 Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5
-,Company Name,Size,Focus,CEO/Founders/Affliation,Location
-,Nvidia Research,200+,Circuit Research Group ,Tom Gray: Head of CRG,"Santa Clara, California and Seattle, Washington "
-,Google ,300+,Google Quantum AI + Taara @ Google X + Google Platforms,"Quantum: Hartmut Neven, Taara: Mahesh Krishnaswamy ","Mountain View, California and Zürich, Switzerland and Seattle, Washington and San Francisco, CA"
+,Company Name,Size,Focus,CEO/Founders/Affiliation,Location
+,Nvidia Research,200,Circuit Research Group ,Tom Gray: Head of CRG,"Santa Clara, California and Seattle, Washington "
+,Google ,300,Google Quantum AI + Taara @ Google X + Google Platforms,"Quantum: Hartmut Neven, Taara: Mahesh Krishnaswamy ","Mountain View, California and Zürich, Switzerland and Seattle, Washington and San Francisco, CA"
 ,NEC Laboratories,500,"Fiber Sensing, Optical Compute, Fiber Telecommunication Optimization","President: Chris White, ONS Head: Ting Wang, Princeton University","Princeton, NJ and Tokyo, Japan"
 ,Intel ,700,Optical input/output (I/O) technology innovation,Richard Uhlig,"Santa Clara, California and Hillsboro, Oregon "
 ,Universal Display Corporation,470,"OLED technology, Tangential interest in optical compute","Sherwin Seligsohn, Stephen Forrest, Princeton University","Ewing Township, NJ"
@@ -19,7 +19,7 @@ Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5
 Yoshihisa Yamamoto, Director, PHI Lab","Tokyo, Japan"
 ,IBM,15000,"Quantum Photonics, Integrated Photonics for intereconnects, potential interest in photonics for AI, Co-packaged optics",CEO ​​​​​Arvind Krishna,"Yorktown Heights, New York, USA and Albany, New York, USA and Sydney, Australia  and Zurich, Switzerland"
 ,Synopsys Photonic Solutions,14000,"Design Software and Assistance for photonic integrated circuits, OptoDesigner",CEO Sassine Ghazi,"Mountain View, California and Montreal, Quebec, Canada"
-,Rockley Photonic,300,photonics chipset developer/supplier for high-volume sensor and communication products.,"CEO: Richard Meier, files for bankruptcy","Pasadena, CA"
+,Rockley Photonic,0,photonics chipset developer/supplier for high-volume sensor and communication products.,"CEO: Richard Meier, Files for bankruptcy","Pasadena, CA"
 ,Hewlett Packard Labs,500,HP and Ayar Labs to co-develop silicon photonics-based optical I/O for HPC and AI,"CTO Tolga Kurtoglu; Fabian Böhm,, Bassem Tossoun, Thomas Van Vaerenbergh","Palo Alto, California and Grenoble, France"
 ,Microsoft Research,100,"Analog Optical Computing. MicroLed Array, Free Space MVM, Electrical Nonlinearity","H. Ballani, G. Brennan, B. Canakci, J. Chu, J. H. Clegg, D. Cletheroe, C. Gkantsidis, J. Gladrow, K. P.
 Kalinin, D. J. Kelly, H. Kremer, G. O'Shea, F. Parmigiani, L. Pickup, B. Rahmani, A. Rowstron","Cambridge, England"
